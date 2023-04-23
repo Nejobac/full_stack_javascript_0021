@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 12px;
+    font-family: 'Press Start 2P', cursive;
+}
+nav{
+    background-color: #cdcdcd;
+    margin:0;
+    padding: 3%;
+    position: fixed;
+}
+body{
+    background-image: url("../imgs/fondoAgumon.jpg");
+    background-size:80px;
+    background-origin: padding-box;
+    background-color: #f4edd5;
+}
+.card-body{
+    background-color:#cdcdcd ;
+}
+
+.col-md-3:hover{
+    cursor: pointer;
+    box-shadow: inset 1px -1px 10px 10px rgb(0, 0, 0)
+}
