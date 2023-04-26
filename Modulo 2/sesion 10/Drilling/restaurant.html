@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nimrodel Pub Restaurant</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+        integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link rel="shortcut icon" href="assets/imgs/n.png" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-custom  navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <img src="./assets/imgs/n.png " alt="Bootstrap" width="50" height="50">
+                <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link active text-white-50" aria-current="page">Nuestros productos</a>
+                        <a class="nav-link active text-white-50" aria-current="page">Sobre nosotros</a>
+                        <a id="btnComuni" class="nav-link active text-white-50" aria-current="page"
+                            href="#comuniquemonos">Comuniquemonos</a>
+                        <a id="btnReserva" class="nav-link active text-white-50" aria-current="page"
+                            href="#reserva">Reserva</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <!-- MODALES-->
+        <section class="sectionModal">
+            <article class="modale" id="modalGaseosa">
+                <div class="modal-content">
+                    <p id="btnModal" class="">
+                        <span class="close text-danger position-absolute p-2">&times;</span>
+                    <h2 class="text-center text-white">Gaseosas </h2>
+                    </p>
+                    <figure class="text-center">
+                        <figcaption class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Aut vero velit</figcaption><br>
+                        <img id="bebidaModal" src="./assets/imgs/bebidas.jpg" alt="">
+                    </figure>
+                </div>
+            </article>
+            <!--  -->
+            <article class="modale" id="modalTabla">
+                <div class="modal-content">
+                    <p id="btnModal">
+                        <span class="close text-danger position-absolute p-2" >&times;</span>
+                    <h2 class="text-center text-white">Tablas </h2>
+                    </p>
+                    <figure class="text-center">
+                        <figcaption class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Aut vero velit</figcaption><br>
+                        <img id="tablaModal" src="./assets/imgs/tablas.jpg" alt="">
+                    </figure>
+                </div>
+            </article>
+            <!--  -->
+            <article class="modale" id="modalShop">
+                <div class="modal-content">
+                    <p id="btnModal" class="">
+                        <span class="close text-danger position-absolute p-2">&times;</span>
+                    <h2 class="text-center text-white">Shop cervezas</h2>
+                    </p>
+                    <figure class="text-center">
+                        <figcaption class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Aut vero velit</figcaption><br>
+                        <img id="shopModal" src="./assets/imgs/shop.jpeg" alt="">
+                    </figure>
+                </div>
+            </article>
+        </section>
+        <!-- MODALES-->
+        <h1 class="text-center text-secondary mb-5">Nimrodel Pub Restaurant</h1>
+        <h2 class="text-center text-overline">Destacados de la semana</h2>
+        <section class="container-fluid p-4">
+            <div class="row">
+                <!-- imagen de las bebidas -->
+                <article class="col-sm-12 col-lg-4 lg-border pb-3">
+                    <div class="card" id="cardGaseosa">
+                        <img src="./assets/imgs/bebidas.jpg" class="card-img-top" alt="Gaseosas">
+                        <div class="card-body">
+                            <h5 class="card-title">Gaseosas</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Aut vero velit</p>
+                        </div>
+                    </div>
+                </article>
+                <!-- Imagen de las tablas -->
+                <article class="col-sm-12 col-lg-4 pb-3">
+                    <div class="card" id="cardTabla">
+                        <img src="./assets/imgs/tablas.jpg" class="card-img-top" alt="tablas">
+                        <div class="card-body">
+                            <h5 class="card-title">TABLAS</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Aut vero velit</p>
+                        </div>
+                    </div>
+                </article>
+                <!-- imagen de las cervezas -->
+                <article class="col-sm-12 col-lg-4 pb-3">
+                    <div class="card" id="cardShop">
+                        <img src="./assets/imgs/shop.jpeg" class="card-img-top" alt="Shop">
+                        <div class="card-body">
+                            <h5 class="card-title">SHOP CERVEZA</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Aut vero velit</p>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+        <!-- Formulario comuniquemonos -->
+        <section id="comuniquemonos" class="container d-none d-lg-block text-white text-center">
+            <div class="bg-black">
+                <h2>Comuniquemonos</h2>
+                <form id="formCom" class="mx-4">
+                    <section>
+                        <article>
+                            <label for="name" class="form-label">Nombre:</label>
+                            <input type="text" name="name" id="name" class="form-control" placeholder="Maria Vargas"
+                                required>
+                            <label for="email" class="form-label">Correo:</label>
+                            <input type="email" class="form-control" id="email" placeholder="mariavargas@correo.com"
+                                required>
+                            <label for="phone" class="form-label">Telefono:</label>
+                            <input type="tel" class="form-control" id="phone" placeholder="998765432" required>
+                        </article>
+                        <article id="textarea">
+                            <label for="motivo" class="form-label">Motivo:</label>
+                            <select class="form-select mb-2" id="motivo" required>
+                                <option value="" disabled selected hidden>Seleccionar una opción</option>
+                                <option>Felicitaciones</option>
+                                <option>Reclamo</option>
+                                <option>Consultas</option>
+                                <option>Sugrerencia</option>
+                            </select>
+                            <!-- <label class="form-check-label" for="description">Mensaje</label> -->
+                            <textarea name="description" rows="8" class="col-11 "></textarea>
+                        </article>
+                        <button type="submit" class="btn btn-primary my-3">Enviar</button>
+                    </section>
+                </form>
+            </div>
+        </section>
+        <br><br>
+        <!-- Formulario Reserva -->
+        <section id="reserva" class="container d-none d-lg-block text-white text-center">
+            <div class="bg-black">
+                <h2>Reserva</h2>
+                <form id="formReserva" class="mx-4">
+                   <!-- <section>  -->
+                        <label for="name" class="form-label">Nombre:</label>
+                        <input type="text" name="name" id="nombre" class="form-control" placeholder="xxxx xxxx" required>
+
+                        <label for="email" class="form-label">Correo:</label>
+                        <input type="email" class="form-control" id="correo" placeholder="xxxx@xx.xx" required>
+
+                        <label for="phone" class="form-label">Telefono:</label>
+                        <input type="tel" class="form-control" id="telefono" placeholder="xxxxxxxxx" required>
+
+                        <label for="fecha" class="form-label">Fecha:</label>
+                        <input type="date" class="form-control" id="fecha" required>
+
+                        <label for="hora" class="form-label">hora:</label>
+                        <input type="time" class="form-control" id="hora" required>
+
+                        <label for="asistentes" class="form-label">Cantidad de asistentes:</label>
+                        <input type="number" class="form-control" id="asistentes" required>
+                        <button type="submit" class="btn btn-primary my-3">Reservar</button>
+                    <!-- </section> -->
+                </form>
+            </div>
+        </section><br>
+        <!-- CARRUSEL -->
+        <section id="carrusel">
+            <div id="carouselExample" class="carousel slide">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./assets/imgs/mojito.jpg" class="d-block w-100" alt="vasosde mojito">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./assets/imgs/chorillana.jpg" class="d-block w-100" alt="chorrillana">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./assets/imgs/vino.jpg" class="d-block w-100" alt="copa de vino">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+    </main>
+
+    <footer class="container-fluid bg-black position-relative">
+        <div id="khe" class="d-none d-lg-block">
+        </div>
+        <div class="text-center position-absolute top-50 start-50 start-50 translate-middle">
+            <span class="text-white">Todos los derechos reservados &reg;</span>
+        </div>
+    </footer>
+    <!-- --------------------------------------------------------------------------------------------- -->
+    <!-- --------------------------------------------------------------------------------------------- -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="./assets/js/index.js"></script>
+</body>
+
+</html>

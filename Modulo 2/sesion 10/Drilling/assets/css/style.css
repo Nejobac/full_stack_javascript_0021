@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 16px;
+}
+
+.navbar-custom,
+#khe {
+    background-image: url('../imgs/fondo.jpg');
+}
+
+.navbar-custom {
+    background-repeat: repeat;
+    background-size: 45vh;
+}
+
+#khe {
+    background-size: 110vh;
+    height: 10vw;
+}
+
+footer {
+    height: 10vw;
+}
+
+.carousel-item>img {
+    max-height: 50vw;
+}
+
+.card>img {
+    max-height: 200px;
+    min-height: 200px;
+}
+
+/* ---------------------------------------- */
+
+.sectionModal{
+    display: flex;
+    justify-content: center;
+}
+#modalGaseosa, #modalTabla, #modalShop {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    top: 10%;
+    background-color: rgba(0, 0, 0, 1);
+    animation: modal_opacity 1s ease;
+}
+
+figure>img{
+    max-height: 60vh;
+    min-height: 40vh;
+    max-width: 60vw;
+    min-width: 60vw;
+    
+}
+        @keyframes modal_opacity {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+.modal-content {
+    width: 60%;
+    padding: 10px;
+}
+.close {
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
